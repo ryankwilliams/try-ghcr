@@ -38,3 +38,15 @@ to your `.bashrc` or `.zshrc` file.
 [Authentication]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry
 [Docker]: https://docs.docker.com/get-started/
 [Podman]: https://podman.io
+
+## Pull
+
+```shell
+<CONTAINER_ENGINE> pull ghrc.io/ryankwilliams/try-ghcr:latest
+```
+
+## Run
+
+```shell
+<CONTAINER_ENGINE> run ghrc.io/ryankwilliams/try-ghcr:latest
+```
