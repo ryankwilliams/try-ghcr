@@ -25,14 +25,14 @@ to your `.bashrc` or `.zshrc` file.
 ## Build
 
 ```shell
-<CONTAINER_ENGINE> build -t try-ghcr:latest
-<CONTAINER_ENGINE> tag try-ghcr:latest ghrc.io/ryankwilliams/try-ghcr:latest
+<CONTAINER_ENGINE> build -t try-ghcr:main
+<CONTAINER_ENGINE> tag try-ghcr:main ghrc.io/ryankwilliams/try-ghcr:main
 ```
 
 ## Push
 
 ```shell
-<CONTAINER_ENGINE> push ghrc.io/ryankwilliams/try-ghcr:latest
+<CONTAINER_ENGINE> push ghrc.io/ryankwilliams/try-ghcr:main
 ```
 
 [Authentication]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry
@@ -42,11 +42,11 @@ to your `.bashrc` or `.zshrc` file.
 ## Pull
 
 ```shell
-<CONTAINER_ENGINE> pull ghrc.io/ryankwilliams/try-ghcr:latest
+<CONTAINER_ENGINE> pull ghrc.io/ryankwilliams/try-ghcr:main
 ```
 
 ## Run
 
 ```shell
-<CONTAINER_ENGINE> run ghrc.io/ryankwilliams/try-ghcr:latest
+<CONTAINER_ENGINE> run ghrc.io/ryankwilliams/try-ghcr:main
 ```
